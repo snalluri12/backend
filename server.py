@@ -21,7 +21,7 @@ PRODUCTS = [
 ]
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "https://friendly-sprite-c7d817.netlify.app/"}}) 
 
 # Handles GET request and sends list of products 
 @app.route('/products', methods=['GET'])
