@@ -14,8 +14,8 @@ DOMAIN = os.getenv('DOMAIN', 'http://localhost:4242')
 
 # product catalog
 PRODUCTS = [
-    {"id": "prod_1", "name": "Sweater", "description": "Comfy white sweater.", "price": 5000, "currency": "usd", "image": "sweater.jpg"},
-    {"id": "prod_2", "name": "Woolen Scarf", "description": "Handmade wool scarf.", "price": 2500, "currency": "usd", "image": "scarf.jpg"}, 
+    {"id": "prod_1", "name": "Sweater", "description": "Comfy white sweater", "price": 5000, "currency": "usd", "image": "sweater.jpg"},
+    {"id": "prod_2", "name": "Woolen Scarf", "description": "Handmade wool scarf", "price": 2500, "currency": "usd", "image": "scarf.jpg"}, 
     {"id": "prod_3", "name": "Socks", "description": "Merino Wool Socks", "price": 4000, "currency": "usd", "image": "socks.jpg"},
     {"id": "prod_4", "name": "Shirt", "description": "Merino Wool Men's shirt", "price": 6500, "currency": "usd", "image": "shirt.jpg"}
 ]
