@@ -92,4 +92,5 @@ def webhook_received():
         return jsonify({'status': 'success'})
 
 if __name__ == '__main__':
-    app.run(port=4242, debug=True)
+    port = int(os.environ.get("PORT", 4242)) 
+    app.run(host='0.0.0.0', port=port, debug=True)
